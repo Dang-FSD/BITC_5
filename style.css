@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#page-title {
+    font-size: 2em;
+    color: blue;
+}
+
+#page-title:hover {
+    color: red;
+}
+
+#description {
+    font-size: 1em;
+    color: gray;
+}
+
+#description:hover {
+    color: black;
+}
+
+#action-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#action-button:hover {
+    background-color: orange;
+}
