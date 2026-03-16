@@ -4,32 +4,64 @@ body {
     margin: 20px;
 }
 
-#page-title {
-    font-size: 2em;
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.france {
+    flex-direction: row;
+}
+
+.germany {
+    flex-direction: column;
+}
+
+.stripe {
+    flex: 1;
+}
+
+.blue {
+    background-color: #002654;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: #ED2939;
+}
+
+.black {
+    background-color: black;
+}
+
+.gold {
+    background-color: #FFCC00;
+}
+
+.h1{
+    font-size: larger;
     color: blue;
 }
-
-#page-title:hover {
+.h1:hover{
     color: red;
 }
-
-#description {
-    font-size: 1em;
+.description{
+    font-size: medium;
     color: gray;
 }
-
-#description:hover {
+.description:hover{
     color: black;
 }
-
-#action-button {
+.clickme{
     background-color: blue;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
-
-#action-button:hover {
+.clickme:hover{
     background-color: orange;
 }
